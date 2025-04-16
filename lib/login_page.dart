@@ -116,10 +116,13 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-                const ControlledSlideInUp(
-                  delay: Duration(milliseconds: 100),
-                  duration: Duration(milliseconds: 900),
-                  child: RegisterSection(),
+                Visibility(
+                  visible: MediaQuery.viewInsetsOf(context).bottom < 30,
+                  child: const ControlledSlideInUp(
+                    delay: Duration(milliseconds: 100),
+                    duration: Duration(milliseconds: 900),
+                    child: RegisterSection(),
+                  ),
                 ),
               ],
             ),
