@@ -1,6 +1,6 @@
 # Onboarding animation prototype
 
-This project is a re-design of a client project and my first attempt at crafting modern and dynamic U.I with the use of animations such as Fade, Scale, Slide and custom page transitions as well as resolving a common issue with login(s) page which causes keyboard input to hide the submit button.
+This project is a re-design of a client project and my first attempt at crafting modern and dynamic U.I with the use of animations such as Fade, Scale, Slide, and custom page transitions as well as resolving a common problem with the login page(s) on mobile which causes keyboard input to hide the submit button.
 
 ## Demo
 
