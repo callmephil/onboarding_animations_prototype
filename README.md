@@ -1,16 +1,36 @@
-# app
+# Onboarding animation prototype
 
-A new Flutter project.
+This project is a re-design of a client project and my first attempt at crafting modern and dynamic U.I with the use of animations such as Fade, Scale, Slide and custom page transitions as well as resolving a common issue with login(s) page which causes keyboard input to hide the submit button.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+![Demo Animation](demo/full_demo.gif)
 
-A few resources to get you started if this is your first Flutter project:
+![New Design](demo/new_design.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Old Design](demo/old_design.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation Instructions
+
+To run this project, follow these steps:
+
+1.  Ensure you have Flutter Version Management (FVM) installed. If not, you can install it from [https://fvm.app/docs/getting_started/installation](https://fvm.app/docs/getting_started/installation).
+2.  Use Flutter version 3.29.3 by running:
+
+    ```bash
+    fvm use 3.29.3
+    ```
+
+3.  Get the project dependencies:
+
+    ```bash
+    fvm flutter pub get
+    ```
+
+4.  Run the project on a connected device using its device ID:
+
+    ```bash
+    fvm flutter run -d (deviceId)
+    ```
+
+    Alternatively, you can use `F5` in VS Code to run the project.
